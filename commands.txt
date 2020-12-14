@@ -27,3 +27,18 @@ aws s3 cp index.html s3://YOURBUCKETNAMEHERE
 
 
 --------------------------BootStrap-script for AWS Centos  instance ----------------------------
+
+#!/bin/bash
+yum update -y
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+yum install amazon-efs-utils -y
+
+---------------------------------------Bootstrap+for+EFS+lab-----------------------------------------
+
+
+
+
+---------------------------------------Bootstrap+for+EFS+lab-----------------------------------------
+
