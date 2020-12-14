@@ -1,0 +1,15 @@
+for using AWS CLI we should configure IAM and then we can use commands
+
+
+aws configure
+then put IAM key ID and Access key
+Deafult region name :us-east-1
+
+
+
+aws s3 ls
+
+
+aws s3 mb s3://unique_name
+
+
